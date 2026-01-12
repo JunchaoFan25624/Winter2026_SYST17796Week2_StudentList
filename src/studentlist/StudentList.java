@@ -29,9 +29,9 @@ public class StudentList {
         s3.setName("Khan");
         s3.setSid(3);
         
-        list[0]=s1;
-        list[1]=s2;
-        list[2]=s3; //stores obj in array
+//        list[0]=s1;
+//        list[1]=s2;
+//        list[2]=s3; //stores obj in array
         
         for (int i = 0; i < list.length; i++) {
             System.out.println(list[i].getName() + " " + list[i].getSid());
