@@ -12,6 +12,7 @@ public class StudentList {
 
     /**
      * @param args the command line arguments
+     * parttime
      */
     public static void main(String[] args) {
         // TODO code application logic here
@@ -35,11 +36,6 @@ public class StudentList {
         
         for (int i = 0; i < list.length; i++) {
             System.out.println(list[i].getName() + " " + list[i].getSid());
-         // fetch + merge
         }
-        System.out.println("Finished");
     }
-    
 }
-
-
