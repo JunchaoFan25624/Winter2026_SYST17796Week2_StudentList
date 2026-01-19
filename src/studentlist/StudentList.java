@@ -35,8 +35,10 @@ public class StudentList {
         
         for (int i = 0; i < list.length; i++) {
             System.out.println(list[i].getName() + " " + list[i].getSid());
+        System.out.println("Finished") // fetch + merge
         }
     }
     
 }
+
 
